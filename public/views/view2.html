@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <!-- META TAGS -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- SEO META TAGS -->
+  <title>Sample &amp; Webpage</title>
+  <meta name='keywords' value='' />
+  <meta name='description' value='' />
+
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body>
+
+  <!-- ********** Navigation Bar Code Start ********** -->
+
+  <nav class="teal lighten-2" role="navigation">
+
+    <!-- Dropdown for Navbar -->
+    <ul id="nav-dropdown" class="dropdown-content">
+      <li><a href="/views/view1.html">View 1</a></li>
+      <li><a href="/views/view2.html">View 2</a></li>
+      <li class="divider"></li>
+      <li><a href="/views/view3.html">View 3</a></li>
+    </ul>
+
+    <!-- navbar code -->
+    <div class="nav-wrapper container">
+
+      <a id="logo-container" href="/" class="brand-logo"><img id="logo" src="../images/sample1.png"><span>&nbsp;Sample</span></a>
+
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/views/view1.html">View 1</a></li>
+        <li><a href="/views/view2.html">View 2</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-button" href="#" data-activates="nav-dropdown">List<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav teal lighten-2">
+        <li><a href="/views/view1.html" class="white-text">Side-View 1</a></li>
+        <li><a href="/views/view2.html" class="white-text">Side-View 2</a></li>
+        <li class="divider"></li>
+        <li><a href="/views/view3.html" class="white-text">Side-View 3</a></li>
+      </ul>
+
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i id="menu-icon" class="material-icons">menu</i></a>
+
+    </div>
+
+  </nav>
+
+  <!-- ********** Navigation Bar Code Close ********** -->
+
+  <!-- ********** Body Code Start ********** -->
+
+  <!-- ***** Parallex1 Body Sample Code Start  ***** -->
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <div class="row center">
+          <h5 class="header white-text col s12 light">The template is the modifcation of the template taken from materializecss template</h5>
+        </div>
+        <div class="row center">
+          <!-- button using button -->
+          <button onclick="location.href = '/views/view1.html'" class="btn-large waves-effect waves-light teal lighten-1" type="button" name="action">Go to View 1</button>
+          &nbsp;
+          <!-- button using a -->
+          <a href="/views/view2.html" id="view2-button" class="btn-large waves-effect waves-light teal lighten-1">Go to View 2</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="../images/martini.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+  <!-- ***** Parallex1 Body Sample Code Close  ***** -->
+
+  <!-- ***** Sample responsive card\item row code start *****-->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="../images/car.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--***** Sample responsive card row code close ***** -->
+
+  <!-- ********** Body Code Close ********** -->
+
+  <!-- ********** Fotter Code Start ********** -->
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Thank You</h5>
+          <p class="grey-text text-lighten-4">Thank you for checking out the template. Hope it will be helpful.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+      <div class="container">
+        By : <a class="brown-text text-lighten-4" href="https://github.com/sasankh">Sasankh BC</a>,&nbsp;Source : <a class="brown-text text-lighten-4" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+  <!-- ********** Fotter Code Close ********** -->
+
+  <!-- jquery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script type="text/javascript" src="../js/materialize.min.js"></script>
+  <script type="text/javascript" src="../js/index.js"></script>
+</body>
+</html>
